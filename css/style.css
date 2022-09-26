@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Roboto+Slab:wght@100;300&display=swap');
+body{
+	font-family: Lato;
+	max-width: 1230px;
+	margin: 0 auto;
+}
+h1{
+	background-color: coral;
+	text-align: center;
+	padding: 10px;
+	font-weight: 900;
+	font-size: 45px;
+	line-height: 130%;
+	color: #1E212C;
+}
+.p{
+	margin: 15px;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 150%;
+	color: #424551;
+}
+h2{
+	margin: 25px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 170%;
+	color: #1E212C;
+}
+.page__text li{
+	background: url(../img/check.svg) 0px 6px no-repeat;
+	margin-bottom: 4px;
+	padding-left: 32px;
+	text-align: left;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: #424551;
+}
+h3{	
+	margin: 20px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+}
+.curator{
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 150%;
+	color: #1E212C;
+}
+.about{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: #35373d;
+	opacity: 0.6;
+}
+h4{
+	background-color: coral;
+	margin: 15px;
+	color: white;
+	border: #1E212C solid 4px;
+	border-radius: 9px;
+	text-align: center;
+	padding: 15px;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+}
+.button{
+	display: inline-block;
+	background-color: coral;
+	padding: 10px;
+	color: #fff;
+	border-radius: 25px;
+	box-shadow: 5px  5px 3px 5px #1E212C;
+	transition: all ease 0s;
+	font-size: 50px;	
+	text-decoration: underline;
+	color: #1E212C;
+}
+.button:hover{
+	margin-top: 3px;
+	box-shadow: 0 2px 0  #1E212C;
+}
+.page__text__2 {
+	background: url('../img/Star.svg') 0 6px no-repeat;
+	margin-bottom: 4px;
+	padding-left: 32px;
+	text-align: left;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 160%;
+}
+.page__text__3{
+	background: url('../img/Group\ 1.svg') 0 6px no-repeat;
+	margin-bottom: 4px;
+	padding-left: 32px;
+	text-align: left;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 160%;
+}
+.page__text__4{
+	background: url('../img/Profile.svg') 0 6px no-repeat;
+	margin-bottom: 4px;
+	padding-left: 32px;
+	text-align: left;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 160%;
+}
